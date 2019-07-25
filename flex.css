@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: royalblue;
+    margin-top: 70px;
+}
+
+.container {
+    border: 2px solid black;
+    background-image: url(image/yikrkByMT.jpg);
+    height: 200vh;
+    
+}
+
+.form-row {
+    padding: 6px 0;
+    display: flex; 
+}
+
+.form-row label {
+    padding-right: 10px;
+}
+
+.form-row input {
+    flex: 1;
+}
+.rezume {
+    display: flex;
+}
+.form {
+    flex: 1;
+}
+.img {
+    flex-direction: row;
+    background-image: url(image/woman-1285-879839.png);
+       
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.img div{
+    width: 40px;
+}
+
+.mail {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column
+}
+
+
+.number {
+   
+    border: 1px solid black;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+}    
+
+.phone {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    flex: 1;
+   
+}
+.call {
+    padding: 10px;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    flex: 1;
+   
+}
+.web {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column; 
+}
+
+div {
+    flex: 1;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.lang {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.language {
+display: flex;
+padding: 10px;
+border: 1px solid black;
+}
+
+.cent {
+    flex-direction: row;
+    flex:  1;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cen {
+    flex-direction: row;
+    flex:  1;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    padding: 10px;
+}
